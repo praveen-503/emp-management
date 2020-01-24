@@ -1,0 +1,75 @@
+<nav class="navbar navbar-dark bg-primary">
+  <!-- Navbar content -->
+</nav>
+<!-- //navbar navbar-expand-lg navbar-light text-dark bg-primary fixed-top -->
+<nav
+  class="navbar navbar-dark bg-primary navbar-expand-lg navbar-light fixed-top"
+>
+  <a class="navbar-brand text-dark" href="#">
+    <img src="../../assets/proarchpng.png" height="50px" alt="">
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarText"
+    aria-controls="navbarText"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"
+      [routerLink]="['/home']"
+          routerLinkActive="router-link-active">
+        <a class="nav-link" href="#"
+          >Home <span class="sr-only">(current)</span></a
+        >
+      </li>
+     
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [routerLink]="['/payment']"
+          routerLinkActive="router-link-active"
+          >Payment</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" *ngIf="!authService.currentUserValue">
+          <a
+            class="nav-link"
+            [routerLink]="['/reg']"
+            routerLinkActive="router-link-active"
+            ><b>Sign Up</b> </a
+          >
+        </li>
+        <li class="nav-item" *ngIf="!authService.currentUserValue">
+          <a
+            class="nav-link"
+            [routerLink]="['/login']"
+            routerLinkActive="router-link-active"
+            > <b>Login</b> </a
+          >
+        </li>
+        <li class="nav-item" *ngIf="authService.currentUserValue">
+          <a
+            class="nav-link"
+            (click)="customLogOut()"
+            routerLinkActive="router-link-active"
+            > <b>LogOut</b> </a
+          >
+          <!-- <a href="{{generateCustomLink(data)}}" target="_blank"></a> -->
+        </li>
+        
+      </ul>
+    </span>
+  </div>
+</nav>

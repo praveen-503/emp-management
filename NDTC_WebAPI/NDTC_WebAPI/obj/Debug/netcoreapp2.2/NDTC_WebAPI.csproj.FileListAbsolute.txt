@@ -1,0 +1,16 @@
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\bin\Debug\netcoreapp2.2\NDTC_WebAPI.deps.json
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\bin\Debug\netcoreapp2.2\NDTC_WebAPI.runtimeconfig.json
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\bin\Debug\netcoreapp2.2\NDTC_WebAPI.runtimeconfig.dev.json
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\bin\Debug\netcoreapp2.2\NDTC_WebAPI.dll
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\bin\Debug\netcoreapp2.2\NDTC_WebAPI.pdb
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\obj\Debug\netcoreapp2.2\NDTC_WebAPI.RazorAssemblyInfo.cache
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\obj\Debug\netcoreapp2.2\NDTC_WebAPI.RazorAssemblyInfo.cs
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\obj\Debug\netcoreapp2.2\NDTC_WebAPI.AssemblyInfoInputs.cache
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\obj\Debug\netcoreapp2.2\NDTC_WebAPI.AssemblyInfo.cs
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\obj\Debug\netcoreapp2.2\NDTC_WebAPI.RazorTargetAssemblyInfo.cache
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\obj\Debug\netcoreapp2.2\NDTC_WebAPI.dll
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\obj\Debug\netcoreapp2.2\NDTC_WebAPI.pdb
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\obj\Debug\netcoreapp2.2\NDTC_WebAPI.csprojAssemblyReference.cache
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Jan2020\NDTC_WebAPI\NDTC_WebAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json

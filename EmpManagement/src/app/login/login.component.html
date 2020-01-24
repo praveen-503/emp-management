@@ -1,0 +1,83 @@
+
+<div class="row justify-content-center pt-5">
+        <div class="col-md-6">
+          <div class="card">
+            <header class="card-header bg-primary">
+              <a
+               [routerLink]="['/reg']" routerLinkActive="router-link-active" 
+                class="float-right btn btn-outline-white mt-2 bg-success text-white"
+                ><b>Sign Up</b></a
+              >
+              <h4 class="card-title mt-2 text-white text-xl-left"><b>Log In</b></h4>
+            </header>
+            <article class="card-body">
+                    <form class="" [formGroup]="loginForm" (ngSubmit)="onSubmit()" >
+               
+                <div class="form-group">
+                  <label>Email</label>
+                  <input
+                    type="text"
+                    formControlName="email"
+                    class="form-control border-primary"
+                    [ngClass]="{ 'is-invalid': submitted && f.email.errors }"
+                  />
+                  <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                    <div *ngIf="f.email.errors.required">Email is required</div>
+                    <div *ngIf="f.email.errors.email">
+                      Email must be a valid email address
+                    </div>
+                  </div>
+                  <small class="form-text text-muted"
+                    >We'll never share your email with anyone else.</small
+                  >
+                </div>
+                <!-- form-group end.// -->
+                <div class="form-group">
+                  <label>Password</label>
+                  <input
+                    type="password"
+                    formControlName="password"
+                    class="form-control border-primary"
+                    [ngClass]="{ 'is-invalid': submitted && f.password.errors }"
+                  />
+                  <div
+                    *ngIf="submitted && f.password.errors"
+                    class="invalid-feedback"
+                  >
+                    <div *ngIf="f.password.errors.required">Password is required</div>
+                    <div *ngIf="f.password.errors.minlength">
+                      Password must be at least 6 characters
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="text-center">
+                    <button class="btn bg-primary text-white mr-1">Login</button>
+                    <button
+                      class="btn btn-secondary"
+                      type="reset"
+                      (click)="onReset()"
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                </div>
+                <!-- form-group// -->
+                <small class="text-muted"
+                  >By clicking the 'Sign Up' button, you confirm that you accept our
+                  <br />
+                  Terms of use and Privacy Policy.</small
+                >
+              </form>
+            </article>
+            <!-- card-body end .// -->
+            <div class="border-top card-body text-center">
+             Don't Have an account? <a [routerLink]="['/reg']" routerLinkActive="router-link-active" >Sign Up</a>
+            </div>
+          </div>
+          <!-- card.// -->
+        </div>
+        <!-- col.//-->
+      </div>
+      <!-- row.//-->
+      

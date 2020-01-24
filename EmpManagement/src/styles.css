@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+input.ng-touched.ng-invalid{
+    border-color : #dc3545;
+}
+
+input.ng-valid{
+    border-color: #28a745;
+}
+
+
+
+/* .red-icon{
+    border-color : #dc3545;
+}
+
+.green-icon{
+    border-color: #28a745;
+}
+ */
+
+ #toast-container > div {
+     opacity: 1;
+ }
+
+ table tr:hover {
+     cursor: pointer;
+     color: turquoise;
+ }
+
+
+.upload{
+    font-weight:bold;
+    color:#28a745;
+    margin-left: 15px;
+    line-height: 36px;
+}
+
+.theme-green .bs-datepicker-head {
+   
+    background-color: #13293e;
+}
+.theme-green .bs-datepicker-body table td.week span {
+    color: #13293e;
+}
+
+
+.bs-datepicker-head button {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    background: transparent;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.carousel-indicators {
+    display: none;
+  }
+
+  .bg-primary {
+    background-color: #13293e !important;
+}
+/* 345777  */
+.bg-success {
+    background-color: #69ba9a !important;
+}
+/* @media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+ */
+
+
+   

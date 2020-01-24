@@ -1,0 +1,77 @@
+<div class="modal fade" id="exampleModalCenter" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <form class="" [formGroup]="personalForm" (ngSubmit)="onSubmit()">
+        <div class="modal-header">
+           
+          <h5 class="modal-title" id="exampleModalCenterTitle">Personal Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+           
+            <div class="col form-group">
+                <label>Address</label>
+                <input
+                  type="textarea"
+                  formControlName="Address"
+                  class="form-control border border-primary"
+                  [ngClass]="{ 'is-invalid': submitted && f.Address.errors }"
+                />
+                <div
+                  *ngIf="submitted && f.Address.errors"
+                  class="invalid-feedback"
+                >
+                  <div *ngIf="f.Address.errors.required">
+                    First Name is required
+                  </div>
+                </div>
+              </div>
+                <div class="form-group">
+                  <label>Gender</label>
+                  <select
+                    formControlName="Gender"
+                    class="form-control border-primary"
+                    [ngClass]="{ 'is-invalid': submitted && f.Gender.errors }"
+                  >
+                    <option value=""></option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                  </select>
+                  <div
+                    *ngIf="submitted && f.Gender.errors"
+                    class="invalid-feedback border-primary"
+                  >
+                    <div *ngIf="f.Gender.errors.required">Gender is required</div>
+                  </div>
+                </div>
+              
+               
+                    <div class="form-group">
+                        <div class="text-center">
+                          <button class="btn bg-primary text-white mr-1">Register</button>
+                          <button
+                            class="btn btn-secondary"
+                            type="reset"
+                            (click)="onReset()"
+                          >
+                            Cancel
+                          </button>
+                        </div>
+                      </div>
+               
+                
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Save changes</button>
+        </div>
+    </form>
+      </div>
+    </div>
+  </div>
+
+
+ 

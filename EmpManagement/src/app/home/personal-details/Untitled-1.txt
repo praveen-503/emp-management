@@ -1,0 +1,21 @@
+          "Id":0
+          "Gender":"Male"
+          "Dob":"10/25/2001"
+          "EmpId":1 
+
+         "Id":0 
+          "Doj":"2/12/2020"
+         " Salary":15000
+         " Designation":"developer"
+         " EmpId ":1
+
+
+            "AddressId":0,
+            "House_No":2-81/b,
+            "StreetName":Ramanthapur,
+            "CityorVillage":Uppal,
+            "District":Rangareddy,
+            "State":Telangana,
+            "Country":India,
+            "PIN_no":500005,
+            "EmpId": 2

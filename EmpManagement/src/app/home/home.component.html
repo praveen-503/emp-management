@@ -1,0 +1,28 @@
+<div class="pt-5">
+
+  <!-- <div class="sidenav pt-5">
+    <a routerLink='personaldetails' routerLinkActive="router-link-active">Personal Details</a>
+     
+    <a href="#services">Services</a>
+    <a href="#clients">Clients</a>
+    <a href="#contact">Contact</a>
+  </div>
+  
+  <div class="main">
+    <router-outlet></router-outlet>
+  </div>   -->
+ 
+  <button type="button" [routerLink]="['personaldetails']" routerLinkActive="router-link-active"  class="btn btn-primary " data-toggle="modal" data-target="#exampleModalCenter">
+    Personal details
+  </button><br><br>
+
+  <button type="button" [routerLink]="['personaldetails']" routerLinkActive="router-link-active"  class="btn btn-primary " data-toggle="modal" data-target="#exampleModalCenter">
+    Company details
+  </button>
+  <router-outlet></router-outlet>
+  
+  <!-- Modal -->
+  
+  
+</div>
+
